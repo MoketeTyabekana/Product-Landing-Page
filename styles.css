@@ -1,0 +1,163 @@
+/* Reset default browser styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000;
+    color: #ecc100;
+    padding: 15px 50px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container h2 {
+    font-size: 1.8em;
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-container a{
+    text-decoration: none;
+}
+
+.nav-container ul {
+    list-style-type: none;
+}
+
+.nav-container ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-container ul li a:hover {
+    color: #f8e71c; /* AirPods yellow color */
+}
+
+/* Header styles */
+.header {
+    background-image: linear-gradient(rgba(26, 26, 26, 0.9),rgba(24, 24, 24, 0.9)), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px;
+}
+
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.header h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.header p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.header a {
+    background-color: #000000; /* AirPods yellow color */
+    color: #c4c4c4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header a:hover {
+    background-color: rgb(255, 255, 255); 
+    color: #000;/* AirPods lighter yellow color */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #e6e6e6;
+    color: #000000;
+    padding: 50px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    margin-right: 30px;
+}
+
+.footer-section h3 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #1d1d1d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #000000; /* AirPods yellow color */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: #f8e71c; /* AirPods yellow color */
+}
